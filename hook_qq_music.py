@@ -17,8 +17,8 @@ if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 output_dir = os.path.abspath(output_dir)
 # 获取用户音乐目录路径
-# home = str(Path.home()) + "\\Music\\VipSongsDownload"
-home = "F:\\music\\VipSongsDownload"
+home = str(Path.home()) + "\\Music\\VipSongsDownload"
+# home = "F:\\music\\VipSongsDownload"
 home = os.path.abspath(home)
 
 # 遍历目录下的所有文件
